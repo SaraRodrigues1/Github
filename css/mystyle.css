@@ -81,7 +81,7 @@ nav ul{
     list-style-type: none;
     margin: 0;
 	padding:0;
-	width:320px;
+	width:375px;
     height: 100%;
     font-size: 25px;
 }
@@ -149,6 +149,9 @@ h3{
 	border-radius: 50%;
 	margin-top:50px;
 	height:40%;
+	border:2px;
+	border-style:solid;
+	border-color:#871054;
 }
 
 .dance{
@@ -219,6 +222,14 @@ h3{
 	font-size:18px;
 }
 
+.planet img{
+	position:absolute;
+	left:800px;
+	right:250px;
+	top:1880px;
+	width:175px;
+}
+
 .text1{
 	grid-column:4/5;
 	position:absolute;
@@ -271,10 +282,11 @@ h3{
 
 .bye article{
 	font-size:40px;
-	color:#FFFFFF;
 	grid-column:5/7;
 	padding-top:150px;
 	text-align:center;
+	color:#FFFFFF;
+	text-shadow: -1px -1px 0 #871054, 1px -1px 0 #871054, -1px 1px 0 #871054, 1px 1px 0 #871054;
 }
 
 /* footer */
@@ -290,23 +302,6 @@ footer{
     color: white;
 }
 
-.fa {
-	padding:10px;
-	font-size: 30px;
-	width: 35px;
-	height:35px;
-	text-decoration: none;
-	margin: 5px;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-instagram {
-	background: #871054;
-	color: white;
-	border-radius:50%;
-	grid-column:7/8;
-	padding:2px;
+footer b{
+	grid-column:1/4;
 }
