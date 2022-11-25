@@ -19,8 +19,8 @@ h1{
 	grid-column:2/3;
 	padding:2px;
 	width:50px;
-
 }
+
 
 header{ 
     display: grid;
@@ -54,10 +54,28 @@ li > a:hover{
     border-bottom: 2px #FFFFFF solid;
 }
 
+/* header */
 
+h2{
+	grid-column:4/6;
+	font-size:80px;
+	color:#EC008C;
+	text-align:center;
+}
+
+#background{
+	grid-column:1/10;
+	background-image: radial-gradient(black, pink, white);
+	background-color:transparent;
+	background-size:1000px 1000px;
+}
 
 #bigtitle{
-	background-image: url("css/background.png");
+	grid-column:4/7;
+}
+
+h3{
+	grid-column:1/10;
 }
 
 .pictures{
