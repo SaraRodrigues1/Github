@@ -61,21 +61,23 @@ h2{
 	font-size:80px;
 	color:#EC008C;
 	text-align:center;
+	
 }
 
 #background{
 	grid-column:1/10;
-	background-image: radial-gradient(black, pink, white);
-	background-color:transparent;
-	background-size:1000px 1000px;
+	background-image: radial-gradient(circle,black, pink, white);
 }
 
 #bigtitle{
 	grid-column:4/7;
+	padding:153px;
 }
 
 h3{
 	grid-column:1/10;
+	background-color:#EC008C;
+	margin:0;
 }
 
 .pictures{
