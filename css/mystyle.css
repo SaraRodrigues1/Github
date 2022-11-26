@@ -295,13 +295,7 @@ footer{
     display: grid;
     grid-column: 1/10;
 	background-color:#FFE1F5;
-    grid-template-columns: subgrid;
-    grid-template-columns: repeat(3, 1fr);
 	height:70px;
-    justify-items: center;
-    color: white;
-}
-
-footer b{
-	grid-column:1/4;
+    color:#871054;
+	padding:7px;
 }
