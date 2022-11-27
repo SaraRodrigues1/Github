@@ -94,3 +94,21 @@ b{
     margin-top: 50px;
 }
 
+.genji2{
+    grid-column: 1/3;
+    height: 500px;
+    width: 300px;
+}
+.genji{
+    grid-column: 3/8;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.genji1{
+    grid-column: 8/10;
+    height: 500px;
+    width: 300px;
+}
+
+
