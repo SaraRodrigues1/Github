@@ -103,3 +103,44 @@ h3{
     align-items: center;
     width: 200px;
 }
+
+#gaming {
+    height: 3.5em;
+    grid-column: 1/10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#gaming b {
+    font-size: 2em;
+    color: white;
+}
+
+#container > p {
+    grid-column: 1/10;
+    padding-left: 200px;
+    padding-right: 200px;
+
+    font-size: 1.25em;
+
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+footer {
+    background-color: black;
+    grid-column: 1/10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 4em;
+    box-shadow: 0 0 8px 8px black;
+}
+
+footer b {
+    color: white;
+    font-size: 1.5em;
+}
