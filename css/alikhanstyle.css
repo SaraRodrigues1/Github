@@ -1,0 +1,80 @@
+h1{
+    color:#FFFFFF;
+    font-size:20px;
+    grid-column:2/3;
+    padding:2px;
+    width:50px;
+}
+
+
+header{
+    display: grid;
+    grid-column: 1/10;
+    background-color:#000000;
+    position: relative;
+    height:50px;
+}
+
+.buttons{
+    grid-column:9/10;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding:10px;
+    width:400px;
+}
+
+li > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size:20px;
+}
+
+li > a:hover{
+    border-bottom: 2px #FFFFFF solid;
+}
+
+body{
+    font-family: "Nexa Bold", "Nexa Light";
+    font-size: 1em;
+    border: 0px;
+    margin: 0px;
+}
+
+#maincontainer{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+#elver{
+    background-image: url("elver.png");
+    grid-column: 1/9;
+    height: 800px;
+    background-size: cover;
+}
+
+#dango{
+    background-image: url("dango.jpg");
+    display: flex;
+    grid-column: 1/9;
+    height: 800px;
+    background-size: cover;
+}
+
+#title{
+    color: #BC13FE;
+    text-align: center;
+    font: 'Nexa Bold';
+}
+
+p{
+    color: #BC13FE;
+    width: 50%;
+    font-size: 1.5em;
+    font: 'Nexa Light';
+}
