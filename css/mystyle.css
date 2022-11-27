@@ -1,0 +1,146 @@
+/* grid creator */
+#container{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    margin: auto;
+}
+
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+/* header */
+
+h1{
+    color:#FFFFFF;
+    font-size:20px;
+    grid-column:2/3;
+    padding:2px;
+    width:50px;
+}
+
+
+header{
+    display: grid;
+    grid-column: 1/10;
+    background-color:#000000;
+    position: relative;
+    height:50px;
+}
+
+.buttons{
+    grid-column:9/10;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding:10px;
+    width:400px;
+}
+
+li > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size:20px;
+}
+
+li > a:hover{
+    border-bottom: 2px #FFFFFF solid;
+}
+
+/* header */
+
+h2{
+    grid-column:4/6;
+    font-size:80px;
+    color:#EC008C;
+    text-align:center;
+
+}
+
+#background{
+    grid-column:1/10;
+    background-image: radial-gradient(circle,black, pink, white);
+}
+
+#bigtitle{
+    grid-column:4/7;
+    padding:153px;
+}
+
+h3{
+    grid-column:1/10;
+    background-color:#EC008C;
+    margin:0;
+}
+
+.pictures{
+    height: 300px;
+}
+
+#hobby_title {
+    color: black;
+    filter: drop-shadow(-10px 2px 3px black);
+    grid-column: 1/10;
+
+}
+
+.members {
+    display: flex;
+    grid-column: 1/10;
+    justify-content: space-evenly;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+#gaming {
+    height: 3.5em;
+    grid-column: 1/10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#gaming b {
+    font-size: 2em;
+    color: white;
+}
+
+#container > p {
+    grid-column: 1/10;
+    padding-left: 200px;
+    padding-right: 200px;
+
+    font-size: 1.25em;
+
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+footer {
+    background-color: black;
+    grid-column: 1/10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 4em;
+    box-shadow: 0 0 8px 8px black;
+}
+
+footer b {
+    color: white;
+    font-size: 1.5em;
+}
